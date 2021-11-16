@@ -1,0 +1,19 @@
+.row{
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid black;
+    justify-content: center;
+}
+
+.col1{
+    width:80%;
+}
+
+.col2{
+    width:15%;
+}
+
+.content{
+    width:100%;
+}
