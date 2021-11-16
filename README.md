@@ -1,7 +1,7 @@
 ﻿# expressTodo
-I save for myself. 
+<h1>I save for myself. My first express study.</h1>
 
-importan notes for myself
+important notes for myself
 
 app.use(express.static(__dirname))  -> i can go external js file with this code (otherwise client side cant work external js of html file)
 app.use(express.urlencoded({ extended: true }));  -> i can get data post method with form like php
