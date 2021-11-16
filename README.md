@@ -19,11 +19,11 @@ async function getData() { <br />
   const result = await data.json(); <br /> 
   console.log(result[0]) <br /> 
   document.querySelector(".content").innerHTML =result.map(item => (` <br /> 
-  <div class="row"> <br />  
+  `<div class="row"> <br />  
     <div class="col1">${item.goal}</div>  <br /> 
     <div class="col2">${item.date} </div> <br /> 
     <div class="col3">${item.finished}</div> <br /> 
-  </div>` <br /> 
+  </div>` ``<br /> 
   )).join(""); <br /> 
 } <br /> 
   
