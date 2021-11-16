@@ -12,8 +12,7 @@ res.redirect("/") -> i go to main page after post with ths.
 I get datas with asyn await but i lived comma problems between objects. So I used .join("") for solving this problem.
 
 
-<code>
-  
+
   
 async function getData() { <br /> 
   const data = await fetch("http://localhost:8000/api"); <br /> 
@@ -29,4 +28,3 @@ async function getData() { <br />
 } <br /> 
   
   
-</code>
