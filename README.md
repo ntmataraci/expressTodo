@@ -13,16 +13,20 @@ I get datas with asyn await but i lived comma problems between objects. So I use
 
 
 <code>
-async function getData() {
-  const data = await fetch("http://localhost:8000/api");
-  const result = await data.json();
-  console.log(result[0])
-  document.querySelector(".content").innerHTML =result.map(item => (`
-    <div class="row">
-    <div class="col1">${item.goal}</div> 
-    <div class="col2">${item.date} </div>
-    <div class="col3">${item.finished}</div>
-  </div>`
-  )).join("");
-}
+  
+  
+async function getData() { <br /> 
+  const data = await fetch("http://localhost:8000/api"); <br /> 
+  const result = await data.json(); <br /> 
+  console.log(result[0]) <br /> 
+  document.querySelector(".content").innerHTML =result.map(item => (` <br /> 
+    <div class="row"> <br />  
+    <div class="col1">${item.goal}</div>  <br /> 
+    <div class="col2">${item.date} </div> <br /> 
+    <div class="col3">${item.finished}</div> <br /> 
+  </div>` <br /> 
+  )).join(""); <br /> 
+} <br /> 
+  
+  
 </code>
